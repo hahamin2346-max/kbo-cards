@@ -1,0 +1,3115 @@
+{
+  "2026": [
+    {
+      "name": "김영우",
+      "number": 67,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "손주영",
+      "number": 29,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "송승기",
+      "number": 13,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "유영찬",
+      "number": 54,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이정용",
+      "number": 31,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "임찬규",
+      "number": 1,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "박동원",
+      "number": 27,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "구본혁",
+      "number": 6,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "문보경",
+      "number": 2,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "신민재",
+      "number": 4,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오지환",
+      "number": 10,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "문성주",
+      "number": 8,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박해민",
+      "number": 17,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "홍창기",
+      "number": 51,
+      "team": "LG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김서현",
+      "number": 44,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "류현진",
+      "number": 99,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "문동주",
+      "number": 1,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "정우주",
+      "number": 61,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "조동욱",
+      "number": 57,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "황준서",
+      "number": 29,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최재훈",
+      "number": 13,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "강백호",
+      "number": 50,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "노시환",
+      "number": 8,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "채은성",
+      "number": 22,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "하주석",
+      "number": 16,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "문현빈",
+      "number": 51,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "오재원",
+      "number": 54,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이진영",
+      "number": 10,
+      "team": "한화",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },{
+      "name": "김광현",
+      "number": 29,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김건우",
+      "number": 39,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김민",
+      "number": 1,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "노경은",
+      "number": 38,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이로운",
+      "number": 92,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "조병현",
+      "number": 19,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최민준",
+      "number": 30,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "조형우",
+      "number": 20,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "고명준",
+      "number": 18,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박성한",
+      "number": 2,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오태곤",
+      "number": 37,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최정",
+      "number": 14,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "최지훈",
+      "number": 54,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "한유섬",
+      "number": 35,
+      "team": "SSG",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김재윤",
+      "number": 62,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "배찬승",
+      "number": 55,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "백정현",
+      "number": 29,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이승민",
+      "number": 28,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이승현",
+      "number": 57,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최원태",
+      "number": 20,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "강민호",
+      "number": 47,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김영웅",
+      "number": 30,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "류지혁",
+      "number": 16,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이재현",
+      "number": 7,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "구자욱",
+      "number": 5,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김성윤",
+      "number": 39,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김지찬",
+      "number": 58,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최형우",
+      "number": 34,
+      "team": "삼성",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },{
+      "name": "구창모",
+      "number": 59,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김영규",
+      "number": 17,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김진호",
+      "number": 54,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "류진욱",
+      "number": 41,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이준혁",
+      "number": 40,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "전사민",
+      "number": 57,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김형준",
+      "number": 25,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김주원",
+      "number": 7,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김휘집",
+      "number": 44,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박민우",
+      "number": 2,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "최정원",
+      "number": 14,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "신재인",
+      "number": 9,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박건우",
+      "number": 37,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "서호철",
+      "number": 5,
+      "team": "NC",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },{
+      "name": "고영표",
+      "number": 1,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "박영현",
+      "number": 60,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "소형준",
+      "number": 30,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김민수",
+      "number": 26,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "우규민",
+      "number": 12,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "한승혁",
+      "number": 35,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "장성우",
+      "number": 22,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김상수",
+      "number": 7,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "허경민",
+      "number": 13,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이강민",
+      "number": 6,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김현수",
+      "number": 10,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "배정대",
+      "number": 27,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "안현민",
+      "number": 23,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "최원준",
+      "number": 3,
+      "team": "KT",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },{
+      "name": "김원중",
+      "number": 34,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김진욱",
+      "number": 15,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박세웅",
+      "number": 21,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "정현수",
+      "number": 57,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최준용",
+      "number": 56,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박정민",
+      "number": 36,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "유강남",
+      "number": 27,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "전민재",
+      "number": 13,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "한동희",
+      "number": 25,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "한태양",
+      "number": 6,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "손호영",
+      "number": 33,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "윤동희",
+      "number": 91,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "전준우",
+      "number": 8,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "황성빈",
+      "number": 0,
+      "team": "롯데",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },{
+      "name": "김범수",
+      "number": 49,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김태형",
+      "number": 10,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "성영탁",
+      "number": 65,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양현종",
+      "number": 54,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "이의리",
+      "number": 48,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "전상현",
+      "number": 51,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "정해영",
+      "number": 62,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최지민",
+      "number": 39,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김태군",
+      "number": 42,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김도영",
+      "number": 5,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김선빈",
+      "number": 3,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "오선우",
+      "number": 56,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김호령",
+      "number": 27,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "나성범",
+      "number": 47,
+      "team": "KIA",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },{
+      "name": "곽빈",
+      "number": 47,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김택연",
+      "number": 63,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "이병헌",
+      "number": 29,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이영하",
+      "number": 50,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최민석",
+      "number": 68,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최승용",
+      "number": 28,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최원준",
+      "number": 61,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양의지",
+      "number": 25,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박준순",
+      "number": 52,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박찬호",
+      "number": 7,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "안재석",
+      "number": 62,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양석환",
+      "number": 53,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오명진",
+      "number": 6,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "정수빈",
+      "number": 31,
+      "team": "두산",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },{
+      "name": "박윤성",
+      "number": 35,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김성진",
+      "number": 21,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김재웅",
+      "number": 28,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "정현우",
+      "number": 13,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "조영건",
+      "number": 20,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "하영민",
+      "number": 50,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김건희",
+      "number": 12,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김태진",
+      "number": 1,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박찬혁",
+      "number": 43,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "안치홍",
+      "number": 9,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "어준서",
+      "number": 92,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최주환",
+      "number": 53,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이주형",
+      "number": 2,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "임지열",
+      "number": 29,
+      "team": "키움",
+      "versions": {
+        "normal-H": true,
+        "normal-A": true,
+        "alphabet": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },{
+      "name": "이상훈",
+      "number": 47,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박철순",
+      "number": 21,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김강민",
+      "number": 0,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김동주",
+      "number": 18,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이대호",
+      "number": 10,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "송진우",
+      "number": 21,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오승환",
+      "number": 21,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박병호",
+      "number": 52,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이택근",
+      "number": 29,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "정근우",
+      "number": 8,
+      "team": "스페셜",
+      "versions": {
+        "normal-H": true,
+        "normal-A": false,
+        "alphabet": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    }
+  ],
+  "2026+": [
+    {
+      "name": "김진성",
+      "number": 42,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "우강훈",
+      "number": 20,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "장현식",
+      "number": 50,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이주헌",
+      "number": 63,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "구본혁",
+      "number": 6,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "문보경",
+      "number": 2,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "문정빈",
+      "number": 56,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이영빈",
+      "number": 7,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오지환",
+      "number": 10,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "천성호",
+      "number": 53,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "박해민",
+      "number": 17,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "송찬의",
+      "number": 55,
+      "team": "LG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "류현진",
+      "number": 99,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "박준영",
+      "number": 68,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박준영",
+      "number": 96,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이민우",
+      "number": 27,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이상규",
+      "number": 18,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "허인서",
+      "number": 59,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "강백호",
+      "number": 50,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "심우준",
+      "number": 7,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이도윤",
+      "number": 5,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최인호",
+      "number": 41,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김태연",
+      "number": 25,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이원석",
+      "number": 37,
+      "team": "한화",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },{
+      "name": "문승원",
+      "number": 42,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "조병현",
+      "number": 19,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "한두솔",
+      "number": 34,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박성한",
+      "number": 2,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "안상현",
+      "number": 10,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "전의산",
+      "number": 47,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "정준재",
+      "number": 3,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "최정",
+      "number": 14,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "홍대인",
+      "number": 97,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김성욱",
+      "number": 31,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김재환",
+      "number": 32,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "채현우",
+      "number": 15,
+      "team": "SSG",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김재윤",
+      "number": 62,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양창섭",
+      "number": 42,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "원태인",
+      "number": 18,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "장찬희",
+      "number": 60,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최지광",
+      "number": 11,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "강민호",
+      "number": 47,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김지찬",
+      "number": 58,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "전병우",
+      "number": 61,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "구자욱",
+      "number": 5,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김헌곤",
+      "number": 32,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박승규",
+      "number": 66,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최형우",
+      "number": 34,
+      "team": "삼성",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },{
+      "name": "구창모",
+      "number": 59,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김태경",
+      "number": 60,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "배재환",
+      "number": 61,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "신영우",
+      "number": 43,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "임지민",
+      "number": 19,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김주원",
+      "number": 7,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김한별",
+      "number": 13,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오태양",
+      "number": 6,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "권희동",
+      "number": 36,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박건우",
+      "number": 37,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "이우성",
+      "number": 55,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "한석현",
+      "number": 33,
+      "team": "NC",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "손동현",
+      "number": 41,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오원석",
+      "number": 47,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "주권",
+      "number": 38,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "권동진",
+      "number": 52,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "류현인",
+      "number": 9,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "오윤석",
+      "number": 4,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김민혁",
+      "number": 53,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김현수",
+      "number": 10,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "안현민",
+      "number": 23,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "유준규",
+      "number": 67,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이정훈",
+      "number": 33,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최원준",
+      "number": 3,
+      "team": "KT",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },{
+      "name": "구승민",
+      "number": 22,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김진욱",
+      "number": 15,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "최준용",
+      "number": 56,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "현도훈",
+      "number": 17,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "홍민기",
+      "number": 38,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "손성빈",
+      "number": 28,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "노진혁",
+      "number": 52,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박승욱",
+      "number": 53,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "전민재",
+      "number": 13,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "신윤후",
+      "number": 3,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "장두성",
+      "number": 7,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "전준우",
+      "number": 8,
+      "team": "롯데",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "곽도규",
+      "number": 0,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양현종",
+      "number": 54,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이태양",
+      "number": 44,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "조상우",
+      "number": 11,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "성영탁",
+      "number": 65,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "황동하",
+      "number": 41,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "한준수",
+      "number": 25,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김도영",
+      "number": 5,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박상준",
+      "number": 50,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김호령",
+      "number": 27,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "나성범",
+      "number": 47,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박재현",
+      "number": 15,
+      "team": "KIA",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },{
+      "name": "곽빈",
+      "number": 47,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "김정우",
+      "number": 16,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박치국",
+      "number": 1,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양재훈",
+      "number": 30,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "최민석",
+      "number": 68,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "윤준호",
+      "number": 27,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "양의지",
+      "number": 25,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "강승호",
+      "number": 23,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박지훈",
+      "number": 37,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김민석",
+      "number": 2,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "손아섭",
+      "number": 24,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "조수행",
+      "number": 51,
+      "team": "두산",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박정훈",
+      "number": 94,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박준현",
+      "number": 18,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "배동현",
+      "number": 61,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "안우진",
+      "number": 41,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "원종현",
+      "number": 46,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "김웅빈",
+      "number": 10,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    },
+    {
+      "name": "서건창",
+      "number": 14,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": true,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "안치홍",
+      "number": 9,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박수종",
+      "number": 87,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "박주홍",
+      "number": 57,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "이형종",
+      "number": 36,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": true,
+        "holo": false,
+        "winningTalisman": false
+      }
+    },
+    {
+      "name": "임병욱",
+      "number": 17,
+      "team": "키움",
+      "versions": {
+        "normal": true,
+        "record": false,
+        "holo": true,
+        "winningTalisman": true
+      }
+    }
+
+  ]
+}

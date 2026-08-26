@@ -1,0 +1,64 @@
+.season-selector { grid-template-columns: repeat(2, 1fr); }
+.card-check { min-height: 40px; }
+.card-check > label { display: grid; place-items: center; height: 40px; }
+.collection-floating { display: flex; align-items: center; gap: 12px; padding: 16px 20px; }
+.collection-floating strong { font-size: 13px; }
+.collection-floating span { color: #667085; font-size: 12px; }
+.collection-floating b { margin-left: auto; color: #4f6bff; font-size: 20px; }
+.collection-parameters { grid-column: 1 / -1; padding: 20px; }
+.dashboard-content { grid-template-columns: 360px minmax(0, 1fr); align-items: start; }
+.dashboard-header { position: relative; z-index: 20; }
+.dashboard-header .team-select { z-index: 30; }
+.dashboard-header .select-menu { z-index: 31; }
+.cards-header { position: relative; z-index: 20; }
+.cards-header .team-select { z-index: 30; }
+.cards-header .select-menu { z-index: 31; }
+.collection-parameters { grid-column: auto; }
+.cards-header-actions { display: flex; align-items: center; gap: 14px; }
+.cards-header-actions .team-select { min-width: 174px; }
+.collection-floating { position: fixed; right: 28px; bottom: 20px; z-index: 10; min-width: 240px; box-shadow: 0 8px 24px #17233d26; cursor: grab; touch-action: none; user-select: none; }
+.collection-floating.is-dragging { cursor: grabbing; }
+.collection-parameters .panel-heading { align-items: flex-start; }
+.collection-parameters .panel-heading > div:first-child { display: grid; gap: 4px; }
+.collection-parameters h2 { margin: 0; }
+.collection-parameters .panel-heading > div:first-child > span { color: #98a2b3; font-size: 12px; }
+.total-cards { display: grid; gap: 3px; text-align: right; }
+.total-cards small, .total-cards span { color: #667085; font-size: 11px; }
+.total-cards strong { color: #4f6bff; font-size: 22px; }
+.season-parameters { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 18px; }
+.season-parameter { padding: 16px; background: #f8fafc; border-radius: 10px; }
+.season-parameter h3 { display: inline; margin: 0 8px 0 0; font-size: 15px; }
+.season-parameter > span { color: #98a2b3; font-size: 11px; }
+.season-parameter dl { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 16px 0 0; }
+.season-parameter dl div { display: grid; gap: 5px; }
+.season-parameter dt { color: #7a8496; font-size: 11px; }
+.season-parameter dd { margin: 0; color: #344054; font-size: 13px; font-weight: 700; }
+@media (max-width: 760px) {
+  .dashboard-content { grid-template-columns: 1fr; }
+  .collection-parameters { grid-column: auto; }
+  .cards-header-actions { align-items: flex-end; flex-direction: column; gap: 8px; }
+  .collection-floating { right: 16px; bottom: 16px; }
+  .season-parameters { grid-template-columns: 1fr; }
+  .season-parameter dl { grid-template-columns: repeat(2, 1fr); }
+  .collection-parameters .panel-heading { display: block; }
+  .total-cards { text-align: left; margin-top: 12px; }
+}
+.season-parameters { grid-template-columns: 1fr; }
+.total-cards { width: 100%; min-height: 72px; padding: 14px 16px; margin-top: 16px; background: #17233d; border-radius: 10px; text-align: left; }
+.total-cards small, .total-cards span { color: #aab7d1; }
+.total-cards strong { color: #fff; font-size: 22px; }
+.season-parameter { min-height: 150px; }
+.season-parameter.season-2026 { border-left: 4px solid #f4d35e; }
+.season-parameter.season-plus { border-left: 4px solid #b8e986; }
+.season-tab.season-2026.active { background: #f4d35e; border-color: #f4d35e; color: #111; }
+.season-tab.season-plus.active { background: #b8e986; border-color: #b8e986; color: #111; }
+.collection-floating { width: 330px; height: 118px; }
+.collection-summary-copy { display: grid; gap: 6px; }
+.collection-summary-copy strong { color: #172033; font-size: 14px; }
+.collection-summary-copy span, .collection-summary-copy small { color: #7a8496; font-size: 12px; }
+.collection-summary-copy small { font-size: 11px; }
+.collection-donut { width: 92px; height: 92px; flex: 0 0 92px; display: grid; place-items: center; border-radius: 50%; background: conic-gradient(#4f6bff var(--collection-progress), #e8edf5 0); position: relative; }
+.collection-donut::after { content: ''; position: absolute; inset: 10px; background: #fff; border-radius: 50%; }
+.collection-donut b { position: relative; z-index: 1; margin: 0; color: #172033; font-size: 14px; }
+.card-table-header { position: sticky; top: 0; z-index: 5; box-shadow: 0 2px 8px #17233d26; }
+@media (max-width: 760px) { .collection-floating { width: calc(100vw - 32px); } }
