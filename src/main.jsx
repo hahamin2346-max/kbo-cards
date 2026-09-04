@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './styles.css'
 import './cards.css'
 import './collection.css'
-import { CARD_SCHEMAS, NO_MATCH_MESSAGE, rosterTeams, findRosterTeam, filterPlayers, getCardPlayers, getCollectionStats } from './data'
+import { CARD_SCHEMAS, NO_MATCH_MESSAGE, rosterTeams, findRosterTeam, filterPlayers, getCardPlayers, getCollectionStats, getTypeBreakdown, getTeamBreakdown } from './data'
 
 const Icon = ({ children }) => <span className="icon" aria-hidden="true">{children}</span>
 const formatNumber = (value) => Number.isInteger(value) ? value : value.toFixed(1)
@@ -22,15 +22,44 @@ function CollectionParameters({ owned }) {
   return <section className="collection-parameters panel"><div className="panel-heading"><div><h2>수집 파라미터</h2><span>카드 페이지 기준</span></div></div><div className="total-cards"><strong>{collected}장 보유</strong><small>총 카드수 {total}장</small></div><div className="season-parameters">{Object.entries(stats).map(([season, value]) => <div className={`season-parameter season-${season === '2026' ? '2026' : 'plus'}`} key={season}><h3>{season}</h3><span>{season === '2026' ? '시즌 카드' : '확장 카드'}</span><dl><div><dt>보유 카드수</dt><dd>{value.collected}장</dd></div><div><dt>구매한 팩 수</dt><dd>{formatNumber(value.packs)}팩</dd></div><div><dt>구매한 박스 수</dt><dd>{formatNumber(value.boxes)}박스</dd></div><div><dt>수집률</dt><dd>{value.total ? `${Math.round(value.collected / value.total * 100)}%` : '0%'}</dd></div></dl></div>)}</div></section>
 }
 
+function TypeBreakdown({ owned }) {
+  const types = getTypeBreakdown(owned, 'all')
+  return <section className="type-breakdown panel"><div className="panel-heading"><div><h2>종류별 카드 수</h2><span>보유 / 전체</span></div></div><div className="type-grid">{types.map((type) => {
+    const rate = type.total ? Math.round(type.collected / type.total * 100) : 0
+    return <div className="type-card" key={type.label}><span className="type-name">{type.label}</span><strong className="type-count">{type.collected}<i>장</i></strong><small>전체 {type.total}장</small><div className="type-bar"><span style={{ width: `${rate}%` }} /></div></div>
+  })}</div></section>
+}
+
+function TeamBreakdown({ owned }) {
+  const teams = getTeamBreakdown(owned)
+  return <section className="team-breakdown panel"><div className="panel-heading"><div><h2>구단별 수집카드 현황</h2><span>2026 · 확장 카드 합산</span></div></div><div className="team-rows">{teams.map((team) => {
+    const rate = team.total ? Math.round(team.collected / team.total * 100) : 0
+    return <div className="team-collect-row" key={team.id}><span className="team-badge" style={{ background: team.color }}>{team.mark}</span><span className="team-collect-name">{team.name}</span><span className="team-collect-count">{team.collected} / {team.total}장</span><div className="team-collect-bar"><span style={{ width: `${rate}%`, background: team.color }} /></div><b>{rate}%</b></div>
+  })}</div></section>
+}
+
 function CardsPage({ owned, setOwned, onBack }) {
   const [season, setSeason] = useState('2026')
   const [cardTeamId, setCardTeamId] = useState('all')
+  const [search, setSearch] = useState('')
+  const [typeKey, setTypeKey] = useState('all')
+  const [status, setStatus] = useState('all')
   const [floatingPosition, setFloatingPosition] = useState(null)
   const [dragging, setDragging] = useState(false)
   const dragOffset = useRef({ x: 0, y: 0 })
   const team = findRosterTeam(cardTeamId)
-  const players = getCardPlayers(season, cardTeamId)
   const schema = CARD_SCHEMAS[season]
+  const activeTypeKey = schema.some(([key]) => key === typeKey) ? typeKey : 'all'
+  const visibleSchema = activeTypeKey === 'all' ? schema : schema.filter(([key]) => key === activeTypeKey)
+  const matchesStatus = (player) => {
+    if (status === 'all') return true
+    const keys = (activeTypeKey === 'all' ? schema.map(([key]) => key) : [activeTypeKey]).filter((key) => player.versions[key])
+    if (!keys.length) return false
+    return status === 'owned'
+      ? keys.some((key) => owned[`${season}-${player.id}-${key}`])
+      : keys.some((key) => !owned[`${season}-${player.id}-${key}`])
+  }
+  const players = filterPlayers(getCardPlayers(season, cardTeamId), search).filter(matchesStatus)
   const stats = getCollectionStats(owned, cardTeamId)[season]
   const toggleCard = (playerId, cardKey) => { const key = `${season}-${playerId}-${cardKey}`; setOwned((current) => ({ ...current, [key]: !current[key] })) }
   const startDragging = (event) => { if (event.button !== 0) return; const rect = event.currentTarget.getBoundingClientRect(); dragOffset.current = { x: event.clientX - rect.left, y: event.clientY - rect.top }; event.currentTarget.setPointerCapture(event.pointerId); setDragging(true) }
@@ -38,17 +67,20 @@ function CardsPage({ owned, setOwned, onBack }) {
   const stopDragging = (event) => { if (!dragging) return; event.currentTarget.releasePointerCapture(event.pointerId); setDragging(false) }
   return <main className="cards-page"><header className="cards-header"><div><h1>KBO 카드</h1><p>좋아하는 선수와 구단의 카드를 모아보세요 · {team.name}</p></div><div className="cards-header-actions"><TeamSelect team={team} onChange={setCardTeamId} /><button className="back-button" onClick={onBack}>← 대시보드로</button></div></header>
     <div className="season-selector" role="tablist" aria-label="카드 시즌 선택">{Object.keys(CARD_SCHEMAS).map((item) => <button key={item} className={`season-tab ${item === '2026+' ? 'season-plus' : 'season-2026'} ${season === item ? 'active' : ''}`} onClick={() => setSeason(item)} role="tab" aria-selected={season === item}>{item}</button>)}</div>
-    <section className="card-list-area"><div className="card-list-heading"><h2>{season} 카드 목록</h2><span>{team.name} · {stats.collected} / {stats.total}장 보유</span></div><div className="card-table"><div className="card-table-row card-table-header" style={{ gridTemplateColumns: `70px 1.5fr repeat(${schema.length}, 1fr)` }}><span>번호</span><span>선수이름</span>{schema.map(([, label]) => <span key={label}>{label}</span>)}</div>{players.map((player) => <div className="card-table-row" style={{ gridTemplateColumns: `70px 1.5fr repeat(${schema.length}, 1fr)` }} key={player.id}><span>{player.number}</span><strong>{player.name}</strong>{schema.map(([key, label]) => <span className="card-check" key={key}>{player.versions[key] && <label><input type="checkbox" checked={Boolean(owned[`${season}-${player.id}-${key}`])} onChange={() => toggleCard(player.id, key)} aria-label={`${player.name} ${label} 카드 보유`} /><span /></label>}</span>)}</div>)}</div></section>
+    <section className="card-list-area"><div className="card-list-heading"><h2>{season} 카드 목록</h2><span>{team.name} · {stats.collected} / {stats.total}장 보유</span></div>
+      <div className="card-filters"><label className="search card-search"><Icon>⌕</Icon><input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="선수 이름 검색" aria-label="선수 이름 검색" /></label>
+        <div className="filter-group" role="group" aria-label="카드 종류 필터"><button className={activeTypeKey === 'all' ? 'active' : ''} onClick={() => setTypeKey('all')}>전체 종류</button>{schema.map(([key, label]) => <button key={key} className={activeTypeKey === key ? 'active' : ''} onClick={() => setTypeKey(key)}>{label}</button>)}</div>
+        <div className="filter-group" role="group" aria-label="보유 여부 필터">{[['all', '전체'], ['owned', '보유'], ['missing', '미보유']].map(([value, label]) => <button key={value} className={status === value ? 'active' : ''} onClick={() => setStatus(value)}>{label}</button>)}</div>
+      </div>
+      <div className="card-table"><div className="card-table-row card-table-header" style={{ gridTemplateColumns: `70px 1.5fr repeat(${visibleSchema.length}, 1fr)` }}><span>번호</span><span>선수이름</span>{visibleSchema.map(([, label]) => <span key={label}>{label}</span>)}</div>{players.length ? players.map((player) => <div className="card-table-row" style={{ gridTemplateColumns: `70px 1.5fr repeat(${visibleSchema.length}, 1fr)` }} key={player.id}><span>{player.number}</span><strong>{player.name}</strong>{visibleSchema.map(([key, label]) => <span className="card-check" key={key}>{player.versions[key] && <label><input type="checkbox" checked={Boolean(owned[`${season}-${player.id}-${key}`])} onChange={() => toggleCard(player.id, key)} aria-label={`${player.name} ${label} 카드 보유`} /><span /></label>}</span>)}</div>) : <div className="card-table-row card-table-empty"><span>{NO_MATCH_MESSAGE}</span></div>}</div></section>
     <aside className={`collection-floating panel ${dragging ? 'is-dragging' : ''}`} style={floatingPosition ? { left: floatingPosition.x, top: floatingPosition.y, right: 'auto', bottom: 'auto' } : undefined} onPointerDown={startDragging} onPointerMove={dragFloating} onPointerUp={stopDragging} onPointerCancel={stopDragging} aria-label="카드 수집률 박스. 드래그해서 이동할 수 있습니다."><div className="collection-summary-copy"><strong>{season} 카드 수집률</strong><span>{stats.collected} / {stats.total}장 보유</span><small>수집률 {stats.total ? Math.round(stats.collected / stats.total * 100) : 0}%</small></div><div className="collection-donut" style={{ '--collection-progress': `${stats.total ? stats.collected / stats.total * 100 : 0}%` }}><b>{stats.total ? Math.round(stats.collected / stats.total * 100) : 0}%</b></div></aside>
   </main>
 }
 
 function Dashboard({ teamId, onTeamChange, owned, onCards }) {
   const team = findRosterTeam(teamId)
-  const [query, setQuery] = useState('')
-  const players = filterPlayers(team.players, query)
-  return <main className="dashboard-page"><header className="dashboard-header"><div><h1>KBO 대시보드</h1><p>2026 시즌 기준 · 응원하는 구단의 로스터와 선수 정보를 한눈에 확인하세요</p></div><div className="header-actions"><TeamSelect team={team} onChange={(nextId) => { onTeamChange(nextId); setQuery('') }} /></div></header>
-    <div className="dashboard-content"><section className="roster-panel panel"><div className="panel-heading"><div><h2>선수 로스터</h2><span>{team.players.length}명</span></div><span className="team-dot" style={{ background: team.color }}>{team.mark}</span></div><label className="search"><Icon>⌕</Icon><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="선수 이름 검색" aria-label="선수 이름 검색" /></label><div className="roster-list">{players.length ? players.map((player) => <div key={player.id} className="player-row"><span className="player-number">{player.number}</span><span className="player-info"><strong>{player.name}</strong></span></div>) : <p className="no-match">{NO_MATCH_MESSAGE}</p>}</div><button className="cards-button" onClick={() => onCards()}>KBO 카드</button></section><CollectionParameters owned={owned} /></div>
+  return <main className="dashboard-page"><header className="dashboard-header"><div><h1>KBO 대시보드</h1><p>2026 시즌 기준 · 응원하는 구단의 카드 수집 현황을 한눈에 확인하세요</p></div><div className="header-actions"><TeamSelect team={team} onChange={onTeamChange} /><button className="back-button" onClick={() => onCards()}>KBO 카드 →</button></div></header>
+    <div className="dashboard-content"><CollectionParameters owned={owned} /><TypeBreakdown owned={owned} /><TeamBreakdown owned={owned} /></div>
   </main>
 }
 

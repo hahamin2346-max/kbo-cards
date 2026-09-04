@@ -8,4 +8,9 @@ export default [
     languageOptions: { ecmaVersion: 'latest', sourceType: 'module', parserOptions: { ecmaFeatures: { jsx: true } }, globals: { document: 'readonly' } },
     rules: { 'no-unused-vars': 'warn', 'no-undef': 'error' },
   },
+  {
+    files: ['electron/**/*.cjs'],
+    languageOptions: { ecmaVersion: 'latest', sourceType: 'commonjs', globals: { __dirname: 'readonly', process: 'readonly', require: 'readonly' } },
+    rules: { 'no-undef': 'error' },
+  },
 ]

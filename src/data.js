@@ -28,6 +28,30 @@ export const getCollectionStats = (owned, teamId) => Object.fromEntries(Object.k
   return [season, { collected, total, packs: collected / 3, boxes: collected / 3 / (season === '2026' ? 30 : 20) }]
 }))
 
+export const getTypeBreakdown = (owned, teamId = 'all') => {
+  const map = new Map()
+  Object.entries(CARD_SCHEMAS).forEach(([season, schema]) => {
+    const players = getCardPlayers(season, teamId)
+    schema.forEach(([key, label]) => {
+      const entry = map.get(label) ?? { label, collected: 0, total: 0 }
+      players.forEach((player) => {
+        if (!player.versions[key]) return
+        entry.total += 1
+        if (owned[`${season}-${player.id}-${key}`]) entry.collected += 1
+      })
+      map.set(label, entry)
+    })
+  })
+  return [...map.values()]
+}
+
+export const getTeamBreakdown = (owned) => teamsData.map((team) => {
+  const stats = getCollectionStats(owned, team.id)
+  const collected = stats['2026'].collected + stats['2026+'].collected
+  const total = stats['2026'].total + stats['2026+'].total
+  return { id: team.id, name: team.name, mark: team.mark, color: team.color, collected, total }
+}).filter((team) => team.total > 0).sort((a, b) => b.collected / b.total - a.collected / a.total)
+
 export const NO_MATCH_MESSAGE = '해당 선수를 찾지 못했습니다.'
 export const findRosterTeam = (teamId) => rosterTeams.find((team) => team.id === teamId) ?? rosterTeams[0]
 export const filterPlayers = (players, query) => { const normalized = query.trim().toLocaleLowerCase(); return normalized ? players.filter((player) => player.name.toLocaleLowerCase().includes(normalized)) : players }

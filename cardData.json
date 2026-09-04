@@ -104,7 +104,7 @@
         "normal-H": true,
         "normal-A": true,
         "alphabet": false,
-        "holo": false,
+        "holo": true,
         "winningTalisman": true
       }
     },
